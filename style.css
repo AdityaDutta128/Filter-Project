@@ -1,0 +1,35 @@
+body {
+    background-repeat:no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-image:url('Background.jpg');
+    background-size:cover;
+}
+
+
+h3 {
+    font-size: 25px !important;
+    color: black;
+}
+
+.btn-success:hover {
+    background-color: yellow;
+    color: black;
+}
+
+canvas {
+    animation-name: animation1;
+    animation-duration:4s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes animation1 {
+    from {
+        box-shadow: 1px 1px 38px blue; 
+    }
+    to {
+        box-shadow: 1px 1px 38px black; 
+    }
+    
+}
